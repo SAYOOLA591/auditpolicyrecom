@@ -28,7 +28,7 @@ Organizations should move away from default Windows auditing and adopt Microsoft
 
 # Recommended System Audit Policy by operating system
 
-We have organized the recommended audit policies by operating system and categorized them accordingly. To proceed, access our Active Directory Domain Controller (ADDC) and open the Group Policy Management console. Under the forest containing our domain name, navigate to the domain section. From there, create a new policy. Right-click on the new policy and select "Edit." Name the new policy "Audit Policy - Endpoint." 
+We will review the recommended audit policies by operating system and categorise them accordingly. To proceed, access our Active Directory Domain Controller (ADDC) and open the Group Policy Management console. Under the forest containing our domain name, navigate to the domain section. From there, create a new policy. Right-click on the new policy and select "Edit." Name the new policy "Audit Policy - Endpoint."
 
 Next, go to the policies section, choose Windows Settings, then Security Settings, and finally select Advanced Audit Policy Configuration. This is where we will configure all our baseline settings.
 
