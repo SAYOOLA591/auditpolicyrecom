@@ -103,6 +103,14 @@ We need to link our Baseline Security Auditing GPO to our OU. By enabling this, 
 
 ![gpo-OU](https://github.com/user-attachments/assets/867db7d3-f7db-4e44-917a-42ae4f1c1356)
 
+---
+
+# Conlusion
+
+In this lab, we successfully demonstrated the importance of applying Microsoft Security Baselines within an enterprise environment. By reviewing the recommendations, we gained a deeper understanding of their significance and identified the key audit categories that need to be enabled for proper oversight and comprehensive event logging.
+
+To enhance visibility, we manually configured and enforced the Advanced Audit Policy, ensuring that critical security events are captured without any gaps. As a final step, we linked the Baseline Security Auditing Group Policy Object (GPO) to our target Organizational Unit (OU). This allows for policy updates to be automatically deployed across all domain-joined endpoints and workstations, thereby maintaining a consistent and centralized security posture.
+
 
 
 
