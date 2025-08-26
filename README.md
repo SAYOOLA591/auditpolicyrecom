@@ -85,9 +85,25 @@ After Process Logging
 
 ![after-tracking](https://github.com/user-attachments/assets/ec393f62-381a-4234-bbff-fa316a5c5ee0)
 
-So now we have everything pretty much good to go and just remember that we should enable Powershell logging as well just in case and to do that I'll Scroll down and expand Windows Components what we want to look for is Windows Powershell which is right here and we have Turn Module Logging Script Block Logging Script Execution and Transcription the one we want is Script Block Logging so this one is the Event ID 4104 I'll click on enabled. I'll log the start and stop event and apply OK.
+So now we have everything pretty much good to go and just remember that we should enable Powershell logging as well just in case and to do that I'll Scroll down and expand Windows Components what we want to look for is Windows Powershell which is right here and we have Turn Module Logging Script Block Logging this one is the Event ID 4104 I'll click on enabled. I'll log the start and stop event and apply OK.
 
 ![powershel-log](https://github.com/user-attachments/assets/b729b754-2422-4b89-b076-1b0fe4f23f6e)
+
+# Advanced Audit Policy Configuration Settings
+
+The final crucial step involves ensuring that the audit force audit policy is enabled when using advanced audit policy configuration settings. Since we utilized these advanced configurations, we manually set up the specific items we want to audit. This means we need to enable the audit force audit policy setting. 
+
+To locate this setting, navigate to Local Policy and then select Security Options. Look for the "Audit Force" option. Once you find it, double-click on it to access the policy settings, and select "Enabled."
+
+![audit-policy1](https://github.com/user-attachments/assets/985a3b7b-6ff6-412c-9429-ad1107915829)
+![audit-policy](https://github.com/user-attachments/assets/a996610b-d46f-427a-b29e-067dbd52fb41)
+
+#
+We need to link our Baseline Security Auditing GPO to our OU. By enabling this, all our workstations/endpoints will automatically collect the update.
+
+![gpo-OU](https://github.com/user-attachments/assets/867db7d3-f7db-4e44-917a-42ae4f1c1356)
+
+
 
 
 
