@@ -18,7 +18,6 @@ To address this, Microsoft provides recommended audit policy baselines that can 
 - Account Management (4720–4726, 4728)
 - Directory Service Access (4662)
 - Policy Changes (4739, 4719)
-- Object Access (4663)
 - Process Creation (4688)
 
 # Takeaway
